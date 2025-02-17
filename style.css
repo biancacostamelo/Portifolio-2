@@ -1,0 +1,71 @@
+:root {
+  --roxo-escuro: #150f25;
+  --roxo-claro: #19122c;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--roxo-escuro);
+}
+
+.container1 {
+  height: 100vh;
+  background: radial-gradient(
+    circle at bottom left,
+    var(--roxo-claro) 20%,
+    var(--roxo-escuro) 40%
+  );
+}
+
+.container2 {
+  height: 100vh;
+  background: radial-gradient(
+    circle at top left,
+    var(--roxo-claro) 20%,
+    var(--roxo-escuro) 40%
+  );
+}
+
+.bg-radialc-roxo {
+  height: 100vh;
+  background: radial-gradient(
+    circle,
+    var(--roxo-claro) 10%,
+    var(--roxo-escuro) 50%
+  );
+}
+
+.container4 {
+  height: 100vh;
+  background: radial-gradient(
+    circle at bottom right,
+    var(--roxo-claro) 20%,
+    var(--roxo-escuro) 40%
+  );
+}
+
+.container5 {
+  height: 100vh;
+  background: radial-gradient(
+    circle at top right,
+    var(--roxo-claro) 20%,
+    var(--roxo-escuro) 40%
+  );
+}
+
+.container6 {
+  height: 100vh;
+  background: radial-gradient(
+    circle at center right,
+    var(--roxo-claro) 20%,
+    var(--roxo-escuro) 40%
+  );
+}
+
