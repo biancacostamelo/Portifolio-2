@@ -18,12 +18,12 @@ nav {
 }
 
 .icone-projects:hover {
-  fill: #d8d8d8;
+  fill: var(--iconHover);
   cursor: pointer;
 }
 
 nav .view-home {
-  color: white;
+  color: var(--texto);
   text-decoration: none;
   font-family: "montserrat";
   display: flex;
