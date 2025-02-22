@@ -6,17 +6,19 @@
   --brancoEsp: #f3f3f3;
   --bgCard: #f3f3f314;
   --paragrafo: #d8d8d8;
+  --bgHome: url(/imagens/home/home-background.png);
   transition: 0.1s ease-in-out;
 }
 
 .light-theme {
-  --bg: rgb(253, 253, 253);
+  --bg: #FDF6F8;
   --texto: #fff;
   --iconHover: #d8d8d8;
   --brancoEsp: #333;
   --bgCard: #ffffff;
   --paragrafo: #6a6a6a;
   --sombraCard: 2px 1px 5px #9999994b;
+  --bgHome: url(/testeImg/fundo\ light.jpg);
   transition: 0.1s ease-in-out;
 }
 
