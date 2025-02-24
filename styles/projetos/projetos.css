@@ -108,6 +108,11 @@
   box-shadow: inset 1px 0px 9px #00000017;
 }
 
+#projetos #ampla, #padrao, #compacto{
+  background-color: transparent;
+  border: none;
+}
+
 @media (max-width: 768px) {
   .btn-view {
     display: none !important;

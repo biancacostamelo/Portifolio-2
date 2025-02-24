@@ -13,10 +13,6 @@ nav {
   position: relative;
 }
 
-.icone-home:hover {
-  filter: invert(90%);
-}
-
 .icone-projects:hover {
   fill: var(--iconHover);
   cursor: pointer;
