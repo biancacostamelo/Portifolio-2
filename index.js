@@ -11,7 +11,7 @@ ampla.addEventListener("click", () => {
   });
 
   cardProjeto.forEach((e) => {
-    e.style.width = "570px";
+    e.style.width = "50%";
   });
   videoContent.forEach((e) => {
     e.style.width = "100%";
@@ -49,4 +49,8 @@ compacto.addEventListener("click", () => {
 function mudarTheme() {
   document.body.classList.toggle("dark-theme");
   document.body.classList.toggle("light-theme");
+}
+
+function enviar(e){
+  alert('aaa')
 }

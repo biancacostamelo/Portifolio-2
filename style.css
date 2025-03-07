@@ -7,18 +7,23 @@
   --brancoEsp: #f3f3f3;
   --bgCard: #f3f3f314;
   --paragrafo: #d8d8d8;
+  --bgLabel: #221b38; 
+  --borderInput: #221b38;
+  --bgBtn: #b19ad8;
   --bgHome: url(/imagens/home/home-background.png);
   transition: 0.1s ease-in-out;
 }
 
 .light-theme {
   --contrast: #000;
-  --bg: #FDF6F8;
+  --bg: #ffffff;
   --texto: #fff;
   --iconHover: #ececec;
   --brancoEsp: #333;
   --bgCard: #ffffff;
   --paragrafo: #6a6a6a;
+  --borderInput: #e9e3e4;
+  --bgBtn: #b19ad8;
   --sombraCard: 2px 1px 5px #9999994b;
   --sombraTexto:  2px 3px 2px #8e5151;
   --bgHome: url(/testeImg/fundo\ light.jpg);
@@ -94,4 +99,44 @@ body {
     var(--roxo-claro) 20%,
     var(--roxo-escuro) 40%
   );
+}
+
+.inputContato{
+  background-color: var(--bgLabel);
+  color: var(--contrast);
+  border: none;
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px var(--borderInput) solid;
+  border-radius: 10px;
+}
+
+.btn-contato{
+  background-color: var(--bgBtn);
+  color: var(--texto);
+  font-weight: 500;
+  margin: 20px 0px;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.btn-contato:hover{
+  background-color: #a08bc4;
+}
+
+.contato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.areaContato{
+  width: 50%;
+}
+
+@media (max-width: 987px) {
+  .areaContato {
+    width: 85%;
+  }
 }
