@@ -38,9 +38,3 @@
 #tecnologias p, span{
     font-size: 14px;
   }
-
-  @media (max-width: 767px) {
-    #tecnologias .col-md-4{
-        margin-bottom: 1.3rem;
-    }
-  }
