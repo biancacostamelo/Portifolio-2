@@ -140,3 +140,12 @@ body {
     width: 85%;
   }
 }
+
+
+#contato *{
+  font-family: 'Inter';
+}
+
+#contato label, p, button, select{
+  font-size: 14px;
+}

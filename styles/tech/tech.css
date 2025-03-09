@@ -1,0 +1,46 @@
+#tecnologias{ 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#tecnologias h2 {
+    color: var(--brancoEsp) !important;
+    font-family: "montserrat";
+    font-size: clamp(1rem, 11vw, 1.5rem);
+    font-weight: 300;
+}
+.textoTech{
+    display: flex;
+    flex-direction: column;
+}
+.textoTech p, span, hr{
+    font-family: 'Inter';
+    color: var(--brancoEsp);
+    margin: 0;
+    padding: 0;
+}
+
+.textoTech p{
+    font-weight: 600;
+}
+
+.textoTech span{
+    font-weight: 200;
+}
+
+#tecnologias svg{
+  /*fill: var(--brancoEsp);*/
+    height: 41px;
+    transition: 0.2s ease-in-out;
+}
+
+#tecnologias p, span{
+    font-size: 14px;
+  }
+
+  @media (max-width: 767px) {
+    #tecnologias .col-md-4{
+        margin-bottom: 1.3rem;
+    }
+  }
