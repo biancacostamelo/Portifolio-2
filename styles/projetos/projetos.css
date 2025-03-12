@@ -24,7 +24,7 @@
 }
 
 #projetos .row .cardProjeto {
-  width: 400px;
+  width: 320px;
   height: min-content;
   background-color: var(--bgCard);
   border-radius: 15px;
@@ -34,7 +34,7 @@
 }
 
 #projetos .imgContainer {
-  height: 200px;
+  height: 160px;
   border-radius: 15px;
   overflow-y: scroll;
   scrollbar-width: thin;
@@ -45,7 +45,7 @@
 }
 
 #projetos .videoContent {
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 
