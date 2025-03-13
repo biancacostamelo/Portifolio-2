@@ -1,7 +1,6 @@
 #tecnologias{ 
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 #tecnologias h2 {
@@ -19,6 +18,17 @@
     color: var(--brancoEsp);
     margin: 0;
     padding: 0;
+}
+
+#tecnologias hr{
+    color: var(--brancoEsp);
+    width: 99% ;
+}
+
+@media (max-width: 767px) {
+    #tecnologias hr{
+        margin: auto;
+    }
 }
 
 .textoTech p{

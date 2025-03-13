@@ -12,7 +12,7 @@ ampla.addEventListener("click", () => {
   });
 
   cardProjeto.forEach((e) => {
-    e.style.width = "50%";
+    e.style.width = "60%";
   });
   videoContent.forEach((e) => {
     e.style.width = "100%";
