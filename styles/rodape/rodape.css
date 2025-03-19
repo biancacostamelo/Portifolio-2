@@ -1,0 +1,43 @@
+#rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rodape p{
+    margin: 0px;
+    padding: 0px;
+}
+
+#rodape p, span{
+font-family: 'Inter';
+}
+
+#rodape p:nth-child(2){
+    font-size: 12px;
+}
+
+#rodape p:nth-child(1){
+    font-weight: 500;
+}
+
+#rodape a{
+    color: var(--brancoEsp);
+    text-decoration: none;
+}
+
+.linksfooter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3em;
+}
+
+@media (max-width: 766px) {
+    .linksfooter{
+        flex-direction: column;
+        align-items: start !important;
+        gap: 1em;
+        margin-top: 20px;
+    }
+}
