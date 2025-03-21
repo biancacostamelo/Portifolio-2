@@ -1,0 +1,25 @@
+#sobremim{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#sobremim h2, h4 {
+    color: var(--brancoEsp) !important;
+    font-family: "Inter";
+    font-size: clamp(1rem, 11vw, 1.5rem);
+    font-weight: 300;
+}
+
+.quadrado{
+    height: 100%;
+    width: 60%;
+    transform: rotate(-7deg);
+    background-color: aliceblue;
+}
+
+@media (max-width: 767px) {
+    .quadrado{
+        display: none;
+    }
+}

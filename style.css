@@ -123,6 +123,7 @@ body {
 
 .btn-contato:hover{
   background-color: #a08bc4;
+  color: var(--texto);
 }
 
 .contato{
