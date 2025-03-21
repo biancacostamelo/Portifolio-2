@@ -308,57 +308,62 @@
     </div>
   </div>
 
-  <div class="contato mb-5" id="contato">
-    <div class="container d-flex justify-content-center">
-      <div class="areaContato">
-        <div class="row">
-          <div class="col-xl-6">
-            <h1 style="color: var(--brancoEsp);">Contate-me</h1>
-          </div>
-          <div class="col-xl-6">
-            <p style="color: var(--paragrafo);"> &#x1f4e7; Bianca.costamelo1@gmail.com</p>
-            <p style="color: var(--paragrafo);">&#9742; 🇧🇷 (+55) 11 95179-4913</p>
+  <div id="sobremim">
+    <div class="container d-flex flex-column gap-4">
+      <h2 class="text-center">Sobre Mim</h2>
+      <div class="row">
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <div>
+            <img class="quadrado" src="/imagens/sobremim/foto.jpg" alt="foto">
           </div>
         </div>
-        <form action="" class="" onsubmit="enviar()">
-          <div class="row mb-3">
-            <div class="col-lg-6 d-flex flex-column">
-              <label style="color: var(--paragrafo);" for="PrimeiroNome">Nome</label>
-              <input class="inputContato" type="text" id="PrimeiroNome" placeholder="Nome">
-            </div>
-            <div class="col-lg-6 d-flex flex-column">
-              <label style="color: var(--paragrafo);" for="Email">E-mail</label>
-              <input class="inputContato" type="text" id="PrimeiroNome" placeholder="E-mail">
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-lg-12 d-flex flex-column">
-              <label for="Assunto" style="color: var(--paragrafo);">Assunto</label>
-              <select class="inputContato" name="" id="Assunto">
-                <option class="inputContato" value="">Desenvolvimento Web</option>
-                <option class="inputContato" value="">Orçamento</option>
-                <option class="inputContato" value="">Sugestão</option>
-                <option class="inputContato" value="">Duvida</option>
-                <option class="inputContato" value="">Outro</option>
-              </select>
-            </div>
-          </div>
-          <div class="row mb-1">
-            <div class="col-12 d-flex flex-column">
-              <label style="color: var(--paragrafo);" for="msg">Mensagem</label>
-              <textarea class="inputContato" name="" id=""></textarea>
-            </div>
-          </div>
-          <button onsubmit="enviar()" class=" btn-contato">Enviar mensagem</button>
-        </form>
+        <div class="col-md-6 p-5 d-flex justify-content-center align-items-center flex-column">
+          <h4>Olá!, eu sou a Bianca!</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In adipisci doloribus architecto similique a quasi commodi neque, reprehenderit nemo esse? Modi totam dolorum placeat nihil assumenda iusto hic. Voluptates, rerum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui nobis in incidunt atque laborum officia at sequi consequatur velit quaerat necessitatibus quis, excepturi dolor quo aliquam quisquam architecto delectus veniam.</p>
+          <button class="btn btn-contato">Mensagem</button>
+        </div>
       </div>
-
+    </div>
+  </div>
+  
+  <div id="formacao" class="my-5">
+    <div class="container">
+      <h2>Formação</h2>
+      <div class="row">
+        <div class="col-sm-12 d-flex justify-content-center flex-column" >
+          <span>Análise e Desenvolvimento de Sistemas</span>
+          <p>Universidade de Guarulhos</p>
+          <ul>
+            <li>Análise e desenvolvimento de sistemas, desde a identificação de requisitos até a implementação de soluções tecnológicas.</li>
+            <li>Aplicação de metodologias ágeis e uso de ferramentas modernas no desenvolvimento de software.</li>
+            <li>Programação com JavaScript, Java, React, Node.js e SQL, entre outras tecnologias.</li>
+            <li>Modelagem e gerenciamento de bancos de dados relacionais e não relacionais.</li>
+            <li>Compreensão dos fundamentos da computação e sua aplicação no contexto corporativo.</li>
+            <li>Desenvolvimento da adaptabilidade profissional e consciência social no ambiente de TI.</li>
+          </ul>
+        </div>
+        <hr>
+        <div class="col-sm-12 d-flex justify-content-center flex-column mt-3">
+          <span>Técnico em Informática para Internet</span>
+          <p>SENAC</p>
+          <ul>
+            <li>Desenvolvimento e implementação de aplicações web e mobile.</li>
+            <li>Codificação de front-end utilizando HTML, CSS, JavaScript e frameworks modernos.</li>
+            <li>Codificação de back-end com Node.js, Express e integração com bancos de dados relacionais (MySQL)</li>
+            <li>Publicação e manutenção de aplicações web e mobile.</li>
+            <li>Desenvolvimento de algoritmos e lógica de programação.</li>
+            <li>Implementação e gerenciamento de bancos de dados para aplicações web.</li>
+            <li>Criação de serviços web e APIs REST.</li>
+            <li>Desenvolvimento de interfaces gráficas para dispositivos móveis com React Native.</li>
+            <li>Integração com web services e recursos de sistemas móveis.</li>
+            <li>Organização e otimização do processo de desenvolvimento de software.</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 
-
-
-  <div id="tecnologias" class="mb-5">
+  <div id="tecnologias" class="my-5">
     <div class="container">
       <h2>Tecnologias</h2>
       <div class="row">
@@ -499,40 +504,51 @@
     </div>
   </div>
 
-  <div id="formacao">
-    <div class="container">
-      <h2>Formação</h2>
-      <div class="row">
-        <div class="col-sm-12 d-flex justify-content-center flex-column" >
-          <span>Análise e Desenvolvimento de Sistemas</span>
-          <p>Universidade de Guarulhos</p>
-          <ul>
-            <li>Análise e desenvolvimento de sistemas, desde a identificação de requisitos até a implementação de soluções tecnológicas.</li>
-            <li>Aplicação de metodologias ágeis e uso de ferramentas modernas no desenvolvimento de software.</li>
-            <li>Programação com JavaScript, Java, React, Node.js e SQL, entre outras tecnologias.</li>
-            <li>Modelagem e gerenciamento de bancos de dados relacionais e não relacionais.</li>
-            <li>Compreensão dos fundamentos da computação e sua aplicação no contexto corporativo.</li>
-            <li>Desenvolvimento da adaptabilidade profissional e consciência social no ambiente de TI.</li>
-          </ul>
+  <div class="contato"  class="my-5" id="contato">
+    <div class="container d-flex justify-content-center">
+      <div class="areaContato">
+        <div class="row">
+          <div class="col-xl-6">
+            <h1 style="color: var(--brancoEsp);">Contate-me</h1>
+          </div>
+          <div class="col-xl-6">
+            <p style="color: var(--paragrafo);"> &#x1f4e7; Bianca.costamelo1@gmail.com</p>
+            <p style="color: var(--paragrafo);">&#9742; 🇧🇷 (+55) 11 95179-4913</p>
+          </div>
         </div>
-        <hr>
-        <div class="col-sm-12 d-flex justify-content-center flex-column mt-3">
-          <span>Técnico em Informática para Internet</span>
-          <p>SENAC</p>
-          <ul>
-            <li>Desenvolvimento e implementação de aplicações web e mobile.</li>
-            <li>Codificação de front-end utilizando HTML, CSS, JavaScript e frameworks modernos.</li>
-            <li>Codificação de back-end com Node.js, Express e integração com bancos de dados relacionais (MySQL)</li>
-            <li>Publicação e manutenção de aplicações web e mobile.</li>
-            <li>Desenvolvimento de algoritmos e lógica de programação.</li>
-            <li>Implementação e gerenciamento de bancos de dados para aplicações web.</li>
-            <li>Criação de serviços web e APIs REST.</li>
-            <li>Desenvolvimento de interfaces gráficas para dispositivos móveis com React Native.</li>
-            <li>Integração com web services e recursos de sistemas móveis.</li>
-            <li>Organização e otimização do processo de desenvolvimento de software.</li>
-          </ul>
-        </div>
+        <form action="" class="" onsubmit="enviar()">
+          <div class="row mb-3">
+            <div class="col-lg-6 d-flex flex-column">
+              <label style="color: var(--paragrafo);" for="PrimeiroNome">Nome</label>
+              <input class="inputContato" type="text" id="PrimeiroNome" placeholder="Nome">
+            </div>
+            <div class="col-lg-6 d-flex flex-column">
+              <label style="color: var(--paragrafo);" for="Email">E-mail</label>
+              <input class="inputContato" type="text" id="PrimeiroNome" placeholder="E-mail">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-lg-12 d-flex flex-column">
+              <label for="Assunto" style="color: var(--paragrafo);">Assunto</label>
+              <select class="inputContato" name="" id="Assunto">
+                <option class="inputContato" value="">Desenvolvimento Web</option>
+                <option class="inputContato" value="">Orçamento</option>
+                <option class="inputContato" value="">Sugestão</option>
+                <option class="inputContato" value="">Duvida</option>
+                <option class="inputContato" value="">Outro</option>
+              </select>
+            </div>
+          </div>
+          <div class="row mb-1">
+            <div class="col-12 d-flex flex-column">
+              <label style="color: var(--paragrafo);" for="msg">Mensagem</label>
+              <textarea class="inputContato" name="" id=""></textarea>
+            </div>
+          </div>
+          <button onsubmit="enviar()" class=" btn-contato">Enviar mensagem</button>
+        </form>
       </div>
+
     </div>
   </div>
 
@@ -566,23 +582,8 @@
     </div>
   </footer>
 </div>
-  <div id="sobremim">
-    <div class="container d-flex flex-column gap-4">
-      <h2 class="text-center">Sobre Mim</h2>
-      <div class="row">
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
-          <div>
-            <img class="quadrado" src="/imagens/sobremim/foto.jpg" alt="foto">
-          </div>
-        </div>
-        <div class="col-md-6 p-5 d-flex justify-content-center align-items-center flex-column">
-          <h4>Olá!, eu sou a Bianca!</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In adipisci doloribus architecto similique a quasi commodi neque, reprehenderit nemo esse? Modi totam dolorum placeat nihil assumenda iusto hic. Voluptates, rerum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui nobis in incidunt atque laborum officia at sequi consequatur velit quaerat necessitatibus quis, excepturi dolor quo aliquam quisquam architecto delectus veniam.</p>
-          <button class="btn btn-contato">Mensagem</button>
-        </div>
-      </div>
-    </div>
-  </div>
+
+  
 
 
 
