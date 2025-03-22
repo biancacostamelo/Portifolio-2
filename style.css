@@ -45,6 +45,9 @@ body {
   position: fixed;
   bottom: 5px;
   left: 5px;
+  background-color: transparent;
+  color: var(--brancoEsp);
+  border: none;
 }
 
 .container1 {
@@ -119,6 +122,7 @@ body {
   border: none;
   padding: 10px 30px;
   border-radius: 10px;
+  font-family: 'Inter';
 }
 
 .btn-contato:hover{
