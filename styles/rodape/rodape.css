@@ -41,3 +41,13 @@ font-family: 'Inter';
         margin-top: 20px;
     }
 }
+
+#rodape .icon-linkedin{
+    fill: var(--brancoEsp);
+    height: 25px;
+    transition: 0.2s ease-in-out;
+}
+
+#rodape .icon-linkedin:hover{
+    fill: var(--bgBtn);
+}
