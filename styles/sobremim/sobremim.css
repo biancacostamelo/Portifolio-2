@@ -7,6 +7,13 @@
 #sobremim h2, h4 {
     color: var(--brancoEsp) !important;
     font-family: "Inter";
+    font-size: clamp(1rem, 11vw, 1.8rem);
+    font-weight: 300;
+}
+
+#sobremim h4 {
+    color: var(--brancoEsp) !important;
+    font-family: "Inter";
     font-size: clamp(1rem, 11vw, 1.5rem);
     font-weight: 300;
 }

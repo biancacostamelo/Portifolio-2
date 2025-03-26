@@ -6,7 +6,7 @@
 #tecnologias h2 {
     color: var(--brancoEsp) !important;
     font-family: "Inter";
-    font-size: clamp(1rem, 11vw, 1.5rem);
+    font-size: clamp(1rem, 11vw, 1.8rem);
     font-weight: 300;
 }
 .textoTech{

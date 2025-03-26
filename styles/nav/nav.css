@@ -13,8 +13,13 @@ nav {
   position: relative;
 }
 
+.icone-projects{
+  fill: var(--brancoEsp);
+  width: 20px; 
+  height: 20px;
+}
+
 .icone-projects:hover {
-  fill: var(--iconHover);
   cursor: pointer;
 }
 
