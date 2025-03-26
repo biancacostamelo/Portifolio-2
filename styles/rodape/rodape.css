@@ -46,6 +46,7 @@ font-family: 'Inter';
     fill: var(--brancoEsp);
     height: 25px;
     transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 #rodape .icon-linkedin:hover{
