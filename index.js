@@ -19,8 +19,7 @@ ampla.addEventListener("click", () => {
     e.style.width = "100%";
     e.style.height = "auto";
   })
-  display.style.justifyContent = "center",
-  btnview.style.width = "62%"
+  display.style.justifyContent = "center"
 })
 
 padrao.addEventListener("click", () => {
@@ -35,8 +34,7 @@ padrao.addEventListener("click", () => {
     e.style.width = "100%";
     e.style.height = "auto"
   })
-  display.style.justifyContent = "center",
-  btnview.style.width = "81%"
+  display.style.justifyContent = "center"
 })
 
 compacto.addEventListener("click", () => {
@@ -50,8 +48,7 @@ compacto.addEventListener("click", () => {
   videoContent.forEach((e) => {
     e.style.height = "100%"
   })
-  display.style.justifyContent = "space-around",
-  btnview.style.width = "100%"
+  display.style.justifyContent = "space-around"
 })
 
 function mudarTheme() {
