@@ -1,58 +1,62 @@
 const ampla = document.getElementById("ampla");
-const padrao = document.getElementById("padrao");
-const compacto = document.getElementById("compacto");
-const display = document.getElementById("display");
-const cardProjeto = document.querySelectorAll(".cardProjeto");
-const imgContainer = document.querySelectorAll(".imgContainer");
-const videoContent = document.querySelectorAll(".videoContent");
+const padrao = document.getElementById("padrao")
+const compacto = document.getElementById("compacto")
+const display = document.getElementById("display")
+const cardProjeto = document.querySelectorAll(".cardProjeto")
+const imgContainer = document.querySelectorAll(".imgContainer")
+const videoContent = document.querySelectorAll(".videoContent")
+const btnview = document.getElementById("btn-view")
 
 ampla.addEventListener("click", () => {
   imgContainer.forEach((e) => {
     e.style.height = "280px";
-  });
+  })
 
   cardProjeto.forEach((e) => {
     e.style.width = "60%";
-  });
+  })
   videoContent.forEach((e) => {
     e.style.width = "100%";
     e.style.height = "auto";
-  });
-  display.style.justifyContent = "center"
-});
+  })
+  display.style.justifyContent = "center",
+  btnview.style.width = "62%"
+})
 
 padrao.addEventListener("click", () => {
   imgContainer.forEach((e) => {
     e.style.height = "200px";
-  });
+  })
 
   cardProjeto.forEach((e) => {
-    e.style.width = "400px";
-  });
+    e.style.width = "400px"
+  })
   videoContent.forEach((e) => {
     e.style.width = "100%";
-    e.style.height = "auto";
-  });
-  display.style.justifyContent = "center"
-});
+    e.style.height = "auto"
+  })
+  display.style.justifyContent = "center",
+  btnview.style.width = "81%"
+})
 
 compacto.addEventListener("click", () => {
   imgContainer.forEach((e) => {
-    e.style.height = "160px";
-  });
+    e.style.height = "160px"
+  })
 
   cardProjeto.forEach((e) => {
-    e.style.width = "320px";
-  });
+    e.style.width = "320px"
+  })
   videoContent.forEach((e) => {
-    e.style.height = "100%";
-  });
-  display.style.justifyContent = "space-around"
-});
+    e.style.height = "100%"
+  })
+  display.style.justifyContent = "space-around",
+  btnview.style.width = "100%"
+})
 
 function mudarTheme() {
-  document.body.classList.toggle("dark-theme");
-  document.body.classList.toggle("light-theme");
+  document.body.classList.toggle("dark-theme")
+  document.body.classList.toggle("light-theme")
 }
 
 function enviar(e){
