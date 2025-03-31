@@ -3,6 +3,7 @@
   --bg: #150f25;
   --bgItemTec: #150f25;
   --texto: #fff;
+  --h2home: #fff;
   --iconHover: #ececec;
   --brancoEsp: #f3f3f3;
   --bgCard: #f3f3f314;
@@ -10,13 +11,15 @@
   --bgLabel: #221b38; 
   --borderInput: #221b38;
   --bgBtn: #b19ad8;
-  --bgHome: url(/imagens/home/home-background.png);
+  --bgHome: url(/imagens/home/2home-background.png);
   transition: 0.1s ease-in-out;
 }
 
 .light-theme {
   --contrast: #000;
   --bg: #ffffff;
+  --bg2: #fbd29bad;
+  --h2home: #866345;
   --texto: #fff;
   --iconHover: #ececec;
   --brancoEsp: #333;
@@ -26,7 +29,7 @@
   --bgBtn: #b19ad8;
   --sombraCard: 2px 1px 5px #9999994b;
   --sombraTexto:  2px 3px 2px #8e5151;
-  --bgHome: url(/testeImg/fundo\ light.jpg);
+  --bgHome: url(/imagens/home/bgLight.png);
   transition: 0.1s ease-in-out;
 }
 
