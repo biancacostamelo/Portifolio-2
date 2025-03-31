@@ -24,6 +24,12 @@ font-family: 'Inter';
 #rodape a{
     color: var(--brancoEsp);
     text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+#rodape a:hover{
+    color: var(--bgBtn);
+    text-decoration: none;
 }
 
 .linksfooter{

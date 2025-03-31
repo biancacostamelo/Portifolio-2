@@ -107,6 +107,8 @@ body {
   );
 }
 
+/*Contato*/
+
 .inputContato{
   background-color: var(--bgLabel);
   color: var(--contrast);
@@ -115,6 +117,11 @@ body {
   margin-top: 10px;
   border: 1px var(--borderInput) solid;
   border-radius: 10px;
+}
+
+.inputContato:focus{
+  outline: none;
+  border: 1px solid var(--bgBtn);
 }
 
 .btn-contato{
