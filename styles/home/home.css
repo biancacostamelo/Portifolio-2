@@ -14,7 +14,6 @@
   flex-direction: column;
   text-align: center;
   background-color: var(--bg2);
-  filter: saturate(0.6);
 }
 
 #home h2 {
@@ -47,6 +46,9 @@
 
 #home .home-text-contain{
   align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 
 @keyframes iconSeta {
