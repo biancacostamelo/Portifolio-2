@@ -40,11 +40,11 @@
 }
 
 #tecnologias svg{
-  /*fill: var(--brancoEsp);*/
     height: 41px;
+    width: 41px;
     transition: 0.2s ease-in-out;
 }
 
 #tecnologias p, span{
     font-size: 14px;
-  }
+}
