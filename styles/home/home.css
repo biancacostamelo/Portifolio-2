@@ -16,6 +16,12 @@
   background-color: var(--bg2);
 }
 
+/* @media (max-width: 1126px) {
+  .light-theme #home {
+    background: var(--bgHome);
+  }
+} */
+
 #home h2 {
   font-size: clamp(2.5rem, 11vw, 5.5rem);
   color: var(--contrast);
