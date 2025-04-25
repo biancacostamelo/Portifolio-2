@@ -90,6 +90,12 @@
   font-size: 25px;
   text-decoration: none;
   color: var(--brancoEsp);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#projetos .iconSetaCard:hover{
+  color: var(--bgBtn) !important;
 }
 
 #projetos .tecnologiaItem {
@@ -106,6 +112,18 @@
   font-size: 11px;
   border-radius: 15px;
   box-shadow: inset 1px 0px 9px #00000017;
+}
+
+#projetos .icon-git{
+  height: 24px;
+  width: 24px;
+  fill: var(--brancoEsp);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#projetos .icon-git:hover {
+  fill: var(--bgBtn) !important;
 }
 
 #projetos #ampla, #padrao, #compacto{
